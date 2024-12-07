@@ -1,5 +1,6 @@
 import { useState } from "react";
-import Header from "./components/Header";
+import Header from "./components/header/Header";
+import NavBar from "./components/nav/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Header />
+      <NavBar />
     </>
   );
 }
